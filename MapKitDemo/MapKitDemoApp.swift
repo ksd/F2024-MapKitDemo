@@ -11,7 +11,8 @@ import SwiftUI
 struct MapKitDemoApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            //ContentView()
+            MapClickView().environmentObject(LocationController())
         }
     }
 }

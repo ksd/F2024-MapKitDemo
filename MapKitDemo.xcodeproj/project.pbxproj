@@ -25,6 +25,7 @@
 		443987112BA0675B00C8F0F1 /* SamplePlaces.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SamplePlaces.swift; sourceTree = "<group>"; };
 		44BF16BF2BA97E65003BD840 /* MapClickView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapClickView.swift; sourceTree = "<group>"; };
 		44BF16C12BA98342003BD840 /* LocationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationController.swift; sourceTree = "<group>"; };
+		44BF16C32BA994B1003BD840 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +58,7 @@
 		443987022BA0672C00C8F0F1 /* MapKitDemo */ = {
 			isa = PBXGroup;
 			children = (
+				44BF16C32BA994B1003BD840 /* Info.plist */,
 				443987032BA0672C00C8F0F1 /* MapKitDemoApp.swift */,
 				443987052BA0672C00C8F0F1 /* ContentView.swift */,
 				44BF16BF2BA97E65003BD840 /* MapClickView.swift */,
@@ -287,6 +289,7 @@
 				DEVELOPMENT_TEAM = TF3KX6TP3E;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MapKitDemo/Info.plist;
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Vi skal have adgang til GPS 🐷";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -317,6 +320,7 @@
 				DEVELOPMENT_TEAM = TF3KX6TP3E;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MapKitDemo/Info.plist;
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Vi skal have adgang til GPS 🐷";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
